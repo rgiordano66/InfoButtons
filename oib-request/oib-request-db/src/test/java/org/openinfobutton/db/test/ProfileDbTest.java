@@ -38,7 +38,7 @@ import org.openinfobutton.profiledb.service.ProfilesDao;
 
 
 @RunWith( SpringJUnit4ClassRunner.class )
-@ContextConfiguration( locations = { "/core-data-annotation-context.xml","/core-profile-datasource-context.xml" } )
+@ContextConfiguration( locations = { "classpath*:core-data-annotation-context.xml","classpath*:core-profile-datasource-context.xml" } )
 public class ProfileDbTest
 {
     /** The pdao. */

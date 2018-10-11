@@ -8,14 +8,14 @@
  	<properties>
  	
 		<datasource1.url>jdbc:mysql://localhost:3306/valueset_and_log</datasource1.url>
-        <datasource1.driver>com.mysql.jdbc.Driver</datasource1.driver>
-        <datasource1.user>infobutton</datasource1.user>
-        <datasource1.password>password</datasource1.password>
+	        <datasource1.driver>com.mysql.jdbc.Driver</datasource1.driver>
+        	<datasource1.user>infobutton</datasource1.user>
+	        <datasource1.password>password</datasource1.password>
 
-        <datasource2.url>jdbc:mysql://localhost:3306/resource_profile</datasource2.url>
-        <datasource2.driver>com.mysql.jdbc.Driver</datasource2.driver>
+        	<datasource2.url>jdbc:mysql://localhost:3306/resource_profile</datasource2.url>
+	        <datasource2.driver>com.mysql.jdbc.Driver</datasource2.driver>
 		<datasource2.user>infobutton</datasource2.user>
-        <datasource2.password>password</datasource2.password>
+        	<datasource2.password>password</datasource2.password>
 
 		<!-- ============== Value Set Configuration =================
 
@@ -30,23 +30,23 @@
 		Uses github and requires a github username and password. Comment out
 		to use local database implementation instead.
 		-->
-		<!-- 
+		
 		<service.subsetImplementation>cloudValueSets</service.subsetImplementation>
 		<github.username />
 		<github.password />
- 		-->
+ 		
 		<!--
 		==== Local database implementation ====
 
 		Remove comment to use and make sure to also comment out default implementation
 		-->
 
-		<service.subsetImplementation>databaseValueSets</service.subsetImplementation>
+		<!--<service.subsetImplementation>databaseValueSets</service.subsetImplementation> -->
 
 		<!-- ================= End Value Set Configuration ================= -->
 
-		<umls.username />
-		<umls.password />
+		<umls.username>PVInfoButton</umls.username>
+		<umls.password>Physician1!</umls.password>
 
 		<spring.version>4.3.8.RELEASE</spring.version>
 		<hibernate.version>4.2.0.Final</hibernate.version>

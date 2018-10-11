@@ -14,8 +14,8 @@
     <description>Parent module for rest clients</description>
 
     <properties>
-        <umls.username />
-        <umls.password />
+        <umls.username>PVInfoButton</umls.username>
+        <umls.password>Physician1!</umls.password>
     </properties>
 
     <build>

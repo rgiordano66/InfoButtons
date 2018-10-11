@@ -14,6 +14,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("propertiesManager")
+@CrossOrigin(origins = "http://d1-openinfo-a.practicevelocity.com:8000")
 public class PropertiesManagerService {
 
     @Autowired

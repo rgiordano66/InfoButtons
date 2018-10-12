@@ -5,7 +5,7 @@
 		<html>
 			<head>
 			<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-				<title> OpenInfobutton</title>
+				<title>Practice Velocity InfoButton</title>
 				<style type="text/css"><![CDATA[
 						@charset "UTF-8";
 							html, body, div, ul, ol, li p, h1, h2, h3, h4, h5, h6, form, fieldset {

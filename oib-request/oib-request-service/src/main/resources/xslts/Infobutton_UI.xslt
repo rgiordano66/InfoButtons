@@ -19,6 +19,9 @@
 								color: #000;
 								text-align: left;
 							}
+							main-title{
+							font-size: 110%; color: #084094; font-weight:800;
+							}
 							h1 { padding: 0.85em 0 0.5em 0; }
 							h2, h3 { padding: 0.5em 0 0.2em 0; }
 							h4, h5, h6 { padding: 0.5em 0 0 0; }
@@ -26,7 +29,7 @@
 							h2 { font-size: 110%; color: #900; }
 							h3 {
 								font-size: 85%;
-								color: #333;
+								color: #000;
 								text-transform: uppercase;
 								letter-spacing: .02em;
 								margin-bottom: 10px;
@@ -101,7 +104,7 @@
 							}
 							.u_style #sideColumn1 {
 								background-color: #B9DDFF;
-								border-bottom-color:#7e0000;
+								border-bottom-color:#B9DDFF;
 								position: relative;
 								z-index: 5;
 								float: left; 
@@ -134,7 +137,7 @@
 								z-index: 0;
 								bottom: 0;
 								width: 12em; 
-								background: #900;
+								background: #B9DDFF;
 								border-right: #bb8d49 7px solid;
 							}
 
@@ -182,12 +185,12 @@
 								padding: 5px;
 							}
 							#sideColumn1 a:link, #sideColumn1 a:visited { 
-								color:#fff; 
+								color:#555; 
 								background-color: #B9DDFF; 
 							}
 							#sideColumn1 a:focus, #sideColumn1 a:hover, #sideColumn1 a:active { 
-								color: #fff; 
-								background-color: #600; 
+								color: #000; 
+								background-color: #B9DDFF; 
 							}
 							
 							#sideColumn1 h3 {
@@ -215,14 +218,14 @@
 								font-weight: bold;
 								letter-spacing: 0.05em;
 								text-transform: uppercase;
-								color: #fff;
+								color: #000;
 								padding: 0 .2em 0 .5em;
 							}
 							.u_style #footer li + li {
 								border-left: #fff 1px solid;
 							}
 							.u_style #footer a:link, .u_style #footer a:visited { 
-								color: #fff; 
+								color: #555; 
 								text-decoration: none; 	
 							}
 							.u_style #footer a:focus, .u_style #footer a:hover, .u_style #footer a:active { 
@@ -265,7 +268,7 @@
 							
 								<xsl:for-each select="//feed">
 								
-									<h3><xsl:value-of select="title"/></h3>
+									<div class="main-title"><xsl:value-of select="title"/></div>
 									<div>
 										<ul>
 											<xsl:for-each select="entry">

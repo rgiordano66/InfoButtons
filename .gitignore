@@ -76,3 +76,4 @@ local.properties
 ######################
 .idea
 *.iml
+/oib-site-lite-ui/node_modules/bower/node_modules/bower-registry-client/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-delayed-stream-auto-pause.js

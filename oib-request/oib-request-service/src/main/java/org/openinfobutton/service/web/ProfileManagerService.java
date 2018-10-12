@@ -49,7 +49,6 @@ import javax.xml.bind.Unmarshaller;
  */
 @RestController
 @RequestMapping("liteManager")
-@CrossOrigin(origins = "http://d1-openinfo-a.practicevelocity.com:8000")
 public class ProfileManagerService
 {
 

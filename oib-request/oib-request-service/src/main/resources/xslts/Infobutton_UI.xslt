@@ -268,7 +268,7 @@
 							
 								<xsl:for-each select="//feed">
 									<div>
-										<img src="/images/practice-velocity-logo-main-167x89.png" alt="PV" />
+										<img src="images/practice-velocity-logo-main-167x89.png" alt="PV"></img>
 									</div>
 									<div class="main-title"><xsl:value-of select="title"/></div>
 									<div>

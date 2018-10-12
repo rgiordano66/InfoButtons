@@ -161,6 +161,11 @@
 								margin-top: -1px;
 								clear: both;
 							}
+							.absolute {
+							    	position: absolute;
+							    	bottom: 0px;
+	 						    	left: 0;
+							}
 							/* --- sideColumn1 styles --- */
 							#sideColumn1 ul {
 								height: inherit;					/* test */
@@ -266,10 +271,7 @@
 						<!-- begin #sideColumn1 -->
 						<div id="sideColumn1">
 							
-								<xsl:for-each select="//feed">
-									<div>
-										<img src="images/practice-velocity-logo-main-167x89.png" alt="PV"></img>
-									</div>
+								<xsl:for-each select="//feed">									
 									<div class="main-title"><xsl:value-of select="title"/></div>
 									<div>
 										<ul>
@@ -288,6 +290,9 @@
 										</ul>
 									</div>
 								</xsl:for-each>
+							<div class="absolute">
+								<img src="images/practice-velocity-logo-main-167x89.png" alt="PV"></img>
+							</div>
 							
 						</div>
 						<div id="content">

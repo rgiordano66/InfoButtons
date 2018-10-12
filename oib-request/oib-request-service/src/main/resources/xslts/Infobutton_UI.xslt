@@ -79,7 +79,7 @@
 								width: auto; 
 							}
 							.u_style #header {
-								background: #900 url(/images/header/redBck.gif) top left no-repeat;}	/* Header color */
+								background-color: #B9DDFF }	/* Header color */
 							.u_style #headerNavBar {
 								clear: both;
 								width: 100%;
@@ -100,7 +100,7 @@
 								clear:both;
 							}
 							.u_style #sideColumn1 {
-								background: #900;
+								background-color: #B9DDFF;
 								border-bottom-color:#7e0000;
 								position: relative;
 								z-index: 5;
@@ -183,7 +183,7 @@
 							}
 							#sideColumn1 a:link, #sideColumn1 a:visited { 
 								color:#fff; 
-								background-color: #900; 
+								background-color: #B9DDFF; 
 							}
 							#sideColumn1 a:focus, #sideColumn1 a:hover, #sideColumn1 a:active { 
 								color: #fff; 
@@ -286,7 +286,7 @@
 							
 						</div>
 						<div id="content">
-							<iframe id="contentPanel" width="995" height="750" scrolling="auto"/>
+							<iframe id="contentPanel" width="100%" height="100%" scrolling="auto"/>
 							<!-- end #content -->
 						</div>
 						<div class="clearer"/>

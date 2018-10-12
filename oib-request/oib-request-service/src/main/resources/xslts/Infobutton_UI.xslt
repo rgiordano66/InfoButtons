@@ -267,7 +267,9 @@
 						<div id="sideColumn1">
 							
 								<xsl:for-each select="//feed">
-								
+									<div>
+										<img src="/images/practice-velocity-logo-main-167x89.png" alt="PV" >
+									</div>
 									<div class="main-title"><xsl:value-of select="title"/></div>
 									<div>
 										<ul>

@@ -163,8 +163,7 @@
 							}
 							.absolute {
 							    	position: absolute;
-							    	bottom: 0px;
-	 						    	left: 0;
+							    	bottom: 0px;	 						    	
 							}
 							/* --- sideColumn1 styles --- */
 							#sideColumn1 ul {

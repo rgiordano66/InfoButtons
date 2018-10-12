@@ -18,6 +18,8 @@
 								background: #666;
 								color: #000;
 								text-align: left;
+								overflow-y: hidden; // hide vertical
+								overflow-x: hidden; // hide horizontal
 							}
 							main-title{
 							font-size: 110%; color: #084094; font-weight:800;

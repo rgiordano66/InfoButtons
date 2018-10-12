@@ -162,8 +162,13 @@
 								clear: both;
 							}
 							.absolute {
-							    	position: absolute;
-							    	bottom: 0px;	 						    	
+								position: absolute;
+								bottom: 0px;	
+								margin: 30px;
+                                				text-align: center;
+                                				display: table-cell;
+                                				vertical-align: middle;
+							}						    	
 							}
 							/* --- sideColumn1 styles --- */
 							#sideColumn1 ul {

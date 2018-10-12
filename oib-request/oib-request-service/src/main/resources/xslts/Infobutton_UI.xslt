@@ -288,10 +288,7 @@
 											</xsl:for-each>
 										</ul>
 									</div>
-								</xsl:for-each>
-							<div class="absolute">
-								<img src="images/practice-velocity-logo-main-167x89.png" alt="PV"></img>
-							</div>
+								</xsl:for-each>						
 							
 						</div>
 						<div id="content">
@@ -299,7 +296,11 @@
 							<!-- end #content -->
 						</div>
 						<div class="clearer"/>
-						<div class="col side1"/>
+						<div class="col side1">
+							<div class="absolute">
+								<img src="images/practice-velocity-logo-main-167x89.png" alt="PV"></img>
+							</div>
+						</div>
 						<div class="col mid"/>
 					</div>
 					
